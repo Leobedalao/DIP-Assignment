@@ -16,6 +16,10 @@ To run point guided transformation, run:
 python run_point_transform.py
 ```
 ## Results 
+### Basic Transformation
+
+### Point Transformation
+
 
 ## Acknowledgement
 📋 Thanks for the algorithms proposed by Image Deformation Using Moving Least Squares.
