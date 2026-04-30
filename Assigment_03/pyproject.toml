@@ -1,0 +1,20 @@
+[project]
+name = "dip-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "torch==2.11.0+cu128",
+    "torchaudio==2.11.0+cu128",
+    "torchvision==0.26.0+cu128",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu128"
+default = true
+
+[tool.uv.extra-build-dependencies]
+pytorch3d = ["torch"]
