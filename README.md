@@ -7,3 +7,6 @@ USTC 数字图像处理课程作业
 
 ### Assignment_02 
 [作业二：泊松编辑与Pix2Pix](https://github.com/Leobedalao/DIP-Assignment/blob/master/Assigment_02)
+
+### Assigment_03 Bundle Adjustment
+[作业三：bundle adjustemnt](https://github.com/Leobedalao/DIP-Assignment/blob/master/Assigment_03)
