@@ -1,0 +1,26 @@
+[project]
+name = "dip-4"
+version = "0.1.0"
+description = "Simplified 3D Gaussian Splatting assignment implementation"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "natsort>=8.4.0",
+    "numpy>=1.26",
+    "opencv-python>=4.9",
+    "torch>=2.5",
+    "torchvision>=0.20",
+    "tqdm>=4.66",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+torchvision = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

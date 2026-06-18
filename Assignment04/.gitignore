@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local generated caches
+__pycache__/
+
+# Large generated data and third-party implementation
+data/
+gaussian-splatting/
