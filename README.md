@@ -10,3 +10,8 @@ USTC 数字图像处理课程作业
 
 ### Assigment_03 Bundle Adjustment
 [作业三：bundle adjustemnt](https://github.com/Leobedalao/DIP-Assignment/blob/master/Assigment_03)
+
+### Assignment_04 3DGS
+[作业四:3DGS](https://github.com/Leobedalao/DIP-Assignment/tree/master/Assignment04)
+
+
